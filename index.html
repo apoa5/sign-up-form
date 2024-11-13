@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up Form</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hey</h1>
+  <div class="container">
+    <div class="left-panel">
+      <img src="assets/background-image.jpg" alt="Fern background" class="background-image">
+      <div class="logo-container">
+        <img src="assets/odin-lined.png" class="odin-lined">
+        <h1>ODIN</h1>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="header">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <strong>Sign up now</strong> to get started.</p>
+        <p><em>You know you want to.</em></p>
+      </div>
+      <div class="form-container">
+        <h2>Let’s do this!</h2>
+        <form action="#">
+          <div class="input-group">
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone Number">
+          </div>
+          <div class="input-group">
+            <input type="password" placeholder="Password" required pattern=".{6,}">
+            <input type="password" placeholder="Confirm Password" required pattern=".{6,}">
+          </div>
+          <button type="submit" class="create-account-btn">Create Account</button>
+        </form>
+        <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
