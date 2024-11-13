@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(assets/Norse-Bold.otf) format('opentype');
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -40,16 +45,14 @@ body {
     z-index: 1;
 }
 
+.logo-container h1 {
+    font-family: 'Norse-Bold', sans-serif;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
 
 .odin-lined {
     height: 50%;
-}
-
-.logo-container h1 {
-    font-size: 48px;
-    font-family: 'Arial', sans-serif;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
 }
 
 .right-panel {
